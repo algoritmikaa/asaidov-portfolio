@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 40px;
+}
+
+.link-header {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.link-header:hover {
+    background-color: black;
+    color: white;
+    transition: all 1s linear;
+}
+
+.link-nav {
+    color: black;
+    margin: 16px;
+    font-size: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 0 20px 10px rgba(106, 106, 106, 0.38);
+}
+
+main p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: darkmagenta;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: url("https://cdn-icons-png.flaticon.com/24/724/724816.png");
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.link-text {
+    color: blueviolet;
+}
+
+ol {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-top: 20px;
+}
